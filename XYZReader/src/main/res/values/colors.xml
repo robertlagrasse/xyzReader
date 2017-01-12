@@ -22,4 +22,17 @@
     <color name="theme_primary_dark">#04561A</color>
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
+
+    <color name="coolor_primary">#0e4749</color>
+    <color name="coolor_dark">#002626</color>
+    <color name="coolor_white">#e8f7ee</color>
+    <color name="coolor_accent">#b8c4bb</color>
+    <color name="coolor_accent2">#acbdba</color>
+    <color name="primary_material_dark_1">#212121</color>
+
+    <color name="chill_primary">#607d8b</color>
+    <color name="chill_dark">#263238</color>
+    <color name="chill_white">#eceff1</color>
+    <color name="chill_accent">#ff9e80</color>
+    <color name="chill_accent2">#dd2c00</color>
 </resources>

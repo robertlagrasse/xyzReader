@@ -12,10 +12,13 @@ import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowInsets;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
@@ -38,6 +41,8 @@ public class ArticleDetailActivity extends AppCompatActivity
     private MyPagerAdapter mPagerAdapter;
     private View mUpButtonContainer;
     private View mUpButton;
+
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +106,31 @@ public class ArticleDetailActivity extends AppCompatActivity
                 }
             });
         }
+
+        mToolbar = (Toolbar) findViewById(R.id.tool_box);
+        setSupportActionBar(mToolbar);
+
+        ImageView bolt = (ImageView) findViewById(R.id.iv_bolt);
+        bolt.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Zaptastic!",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+        });
+
+        ImageView quality = (ImageView) findViewById(R.id.iv_quality);
+        quality.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Only the best for you!",
+                        Toast.LENGTH_SHORT).show();
+            }
+
+        });
 
         if (savedInstanceState == null) {
             if (getIntent() != null && getIntent().getData() != null) {

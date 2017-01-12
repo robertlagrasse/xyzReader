@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialXYZReader" parent="android:Theme.DeviceDefault.Light.NoActionBar" >
+        <item name="android:colorPrimary">@color/chill_primary</item>
+        <item name="android:colorPrimaryDark">@color/chill_dark</item>
+        <item name="android:colorAccent">@color/chill_accent</item>
+    </style>
+
+    <style name="fab_style">
+        <item name="android:layout_width">@dimen/fab_size</item>
+        <item name="android:layout_height">@dimen/fab_size</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:elevation">@dimen/fab_elevation</item>
+        <item name="android:stateListAnimator">@anim/fab_state_list_anim</item>
+    </style>
+
+    <style name="mwll_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/detail_card_top_margin</item>
+        <item name="android:background">@color/chill_primary</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:maxWidth">@dimen/detail_card_max_width</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="toolbar_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:background">@color/chill_dark</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="toolbar_icons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:src">@drawable/ic_bolt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="cardview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="photo_placeholder_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@color/chill_dark</item>
+        <item name="android:elevation">16dp</item>
+    </style>
+
+
+</resources>

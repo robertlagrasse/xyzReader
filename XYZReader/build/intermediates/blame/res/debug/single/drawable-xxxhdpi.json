@@ -12,6 +12,10 @@
         "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_high_quality_button.png",
+        "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_high_quality_button.png"
+    },
+    {
         "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png",
         "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png"
     },
@@ -74,5 +78,9 @@
     {
         "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png",
         "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_bolt.png",
+        "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_bolt.png"
     }
 ]

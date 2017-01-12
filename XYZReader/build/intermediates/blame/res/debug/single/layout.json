@@ -188,6 +188,10 @@
         "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/layout_snackbar.xml"
     },
     {
+        "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/layout/main_toolbar.xml",
+        "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/layout/main_toolbar.xml"
+    },
+    {
         "merged": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_alert_dialog_material.xml"
     }
