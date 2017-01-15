@@ -3,7 +3,8 @@
     style="@style/cardview_style"
     android:clickable="true"
     android:focusable="true"
-    android:foreground="?selectableItemBackground">
+    android:foreground="?selectableItemBackground"
+    android:onClick="sharedElementTransition">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,11 +16,13 @@
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             style="@style/photo_placeholder_style"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:transitionName="transition_image"/>
 
         <TextView
             android:id="@+id/article_title"
-            style="@style/article_title_style"/>
+            style="@style/article_title_style"
+            android:transitionName="transition_title"/>
 
         <TextView
             android:id="@+id/article_subtitle"

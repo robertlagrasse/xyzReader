@@ -2286,11 +2286,11 @@ containing a value of this type.
         public static final int title=0x7f0d0043;
         public static final int title_template=0x7f0d0046;
         public static final int tool_bar=0x7f0d006c;
-        public static final int tool_box=0x7f0d0067;
+        public static final int tool_box=0x7f0d0068;
         public static final int top=0x7f0d0027;
         public static final int topPanel=0x7f0d0045;
         public static final int up=0x7f0d0008;
-        public static final int up_container=0x7f0d0068;
+        public static final int up_container=0x7f0d0067;
         public static final int useLogo=0x7f0d0013;
         public static final int view_offset_helper=0x7f0d0009;
         public static final int withText=0x7f0d002f;

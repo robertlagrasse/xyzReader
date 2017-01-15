@@ -26,7 +26,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:scaleType="centerCrop" />
+                    android:scaleType="centerCrop"
+                    android:transitionName="transition_image"/>
             </FrameLayout>
 
 
@@ -39,7 +40,8 @@
 
                     <TextView
                         android:id="@+id/article_title"
-                        style="@style/headline_text" />
+                        style="@style/headline_text"
+                        android:transitionName="transition_title"/>
 
                     <TextView
                         android:id="@+id/article_byline"

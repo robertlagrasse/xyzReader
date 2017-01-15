@@ -13,9 +13,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowInsets;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -46,12 +48,14 @@ public class ArticleDetailActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
             getWindow().getDecorView().setSystemUiVisibility(
                     View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
                             View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
         }
+        super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_article_detail);
 
         getLoaderManager().initLoader(0, null, this);
@@ -131,11 +135,15 @@ public class ArticleDetailActivity extends AppCompatActivity
             }
 
         });
-
+        Log.e("DETAILACTIVIY", "getaction: "+ getIntent().getAction());
         if (savedInstanceState == null) {
             if (getIntent() != null && getIntent().getData() != null) {
+
                 mStartId = ItemsContract.Items.getItemId(getIntent().getData());
                 mSelectedItemId = mStartId;
+
+                Toast.makeText(getApplicationContext(), "Only the best for you!"+ getIntent().getData(),
+                        Toast.LENGTH_SHORT).show();
             }
         }
     }

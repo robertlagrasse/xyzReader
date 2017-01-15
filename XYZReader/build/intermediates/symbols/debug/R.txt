@@ -692,11 +692,11 @@ int id time 0x7f0d0082
 int id title 0x7f0d0043
 int id title_template 0x7f0d0046
 int id tool_bar 0x7f0d006c
-int id tool_box 0x7f0d0067
+int id tool_box 0x7f0d0068
 int id top 0x7f0d0027
 int id topPanel 0x7f0d0045
 int id up 0x7f0d0008
-int id up_container 0x7f0d0068
+int id up_container 0x7f0d0067
 int id useLogo 0x7f0d0013
 int id view_offset_helper 0x7f0d0009
 int id withText 0x7f0d002f

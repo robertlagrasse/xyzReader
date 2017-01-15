@@ -8,14 +8,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <include
-        android:id="@+id/tool_box"
-        layout="@layout/main_toolbar"/>
+
     <FrameLayout
         android:id="@+id/up_container"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height">
+
+        <include
+            android:id="@+id/tool_box"
+            layout="@layout/main_toolbar"/>
 
         <ImageButton
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
