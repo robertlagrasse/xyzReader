@@ -21,6 +21,7 @@
         <item name="colorPrimary">@color/chill_primary</item>
         <item name="colorPrimaryDark">@color/chill_dark</item>
         <item name="colorAccent">@color/chill_accent</item>
+        <item name="colorAccent2">@color/chill_accent2</item>
     </style>
     <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- colorPrimary is used for the default action bar background -->

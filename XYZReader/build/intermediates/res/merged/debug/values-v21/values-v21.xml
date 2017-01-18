@@ -226,6 +226,7 @@
         <item name="colorPrimary">@color/chill_primary</item>
         <item name="colorPrimaryDark">@color/chill_dark</item>
         <item name="colorAccent">@color/chill_accent</item>
+        <item name="colorAccent2">@color/chill_accent2</item>
         <item name="android:windowContentTransitions">true</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Material">

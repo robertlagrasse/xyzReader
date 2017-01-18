@@ -8,5 +8,7 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="subject">Check out the XYZ Reader</string>
+    <string name="body">Dude! You just have to check out the coolest new reader on the play store. The XYZ Reader is the business!</string>
 
 </resources>

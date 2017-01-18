@@ -991,9 +991,9 @@
                     "startLine": 221,
                     "startColumn": 4,
                     "startOffset": 16297,
-                    "endLine": 229,
+                    "endLine": 230,
                     "endColumn": 12,
-                    "endOffset": 16845
+                    "endOffset": 16907
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml",
@@ -1001,20 +1001,20 @@
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 56,
-                        "endLine": 11,
+                        "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 605
+                        "endOffset": 667
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 16850,
-                    "endLine": 236,
+                    "startOffset": 16912,
+                    "endLine": 237,
                     "endColumn": 12,
-                    "endOffset": 17198
+                    "endOffset": 17260
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml"
@@ -1022,12 +1022,12 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 17203,
-                    "endLine": 243,
+                    "startOffset": 17265,
+                    "endLine": 244,
                     "endColumn": 12,
-                    "endOffset": 17563
+                    "endOffset": 17625
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml"
@@ -1035,12 +1035,12 @@
             },
             {
                 "to": {
-                    "startLine": 244,
+                    "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 17568,
-                    "endLine": 253,
+                    "startOffset": 17630,
+                    "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 18191
+                    "endOffset": 18253
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml"
@@ -1048,12 +1048,12 @@
             },
             {
                 "to": {
-                    "startLine": 254,
+                    "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 18196,
-                    "endLine": 263,
+                    "startOffset": 18258,
+                    "endLine": 264,
                     "endColumn": 12,
-                    "endOffset": 18820
+                    "endOffset": 18882
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml"
@@ -1061,12 +1061,12 @@
             },
             {
                 "to": {
-                    "startLine": 264,
+                    "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 18825,
-                    "endLine": 272,
+                    "startOffset": 18887,
+                    "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 19276
+                    "endOffset": 19338
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1074,12 +1074,12 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 19281,
-                    "endLine": 281,
+                    "startOffset": 19343,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 19805
+                    "endOffset": 19867
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1087,12 +1087,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 19810,
-                    "endLine": 291,
+                    "startOffset": 19872,
+                    "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 20374
+                    "endOffset": 20436
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1100,12 +1100,12 @@
             },
             {
                 "to": {
-                    "startLine": 292,
+                    "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 20379,
-                    "endLine": 298,
+                    "startOffset": 20441,
+                    "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 20714
+                    "endOffset": 20776
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1113,12 +1113,12 @@
             },
             {
                 "to": {
-                    "startLine": 299,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 20719,
-                    "endLine": 306,
+                    "startOffset": 20781,
+                    "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 21094
+                    "endOffset": 21156
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1126,12 +1126,12 @@
             },
             {
                 "to": {
-                    "startLine": 307,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 21099,
-                    "endLine": 312,
+                    "startOffset": 21161,
+                    "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 21389
+                    "endOffset": 21451
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"

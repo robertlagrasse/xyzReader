@@ -19,6 +19,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.transition.Explode;
+import android.util.Log;
 import android.util.Pair;
 import android.util.TypedValue;
 import android.view.Menu;
@@ -34,6 +35,8 @@ import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
 import com.example.xyzreader.data.UpdaterService;
+
+
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -110,6 +113,17 @@ public class ArticleListActivity extends AppCompatActivity implements
                         Toast.LENGTH_SHORT).show();
             }
 
+        });
+
+        findViewById(R.id.open_fab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto","", null));
+                intent.putExtra(Intent.EXTRA_SUBJECT, getText(R.string.subject));
+                intent.putExtra(Intent.EXTRA_TEXT, getText(R.string.body));
+                startActivity(intent);
+            }
         });
 
 

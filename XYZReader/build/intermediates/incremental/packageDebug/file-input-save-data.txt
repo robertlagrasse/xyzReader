@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 18 10:11:05 PST 2017
+#Wed Jan 18 13:16:50 PST 2017
 175.set=ANDROID_RESOURCE
 122.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
 60.set=ANDROID_RESOURCE
