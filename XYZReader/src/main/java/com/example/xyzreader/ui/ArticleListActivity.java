@@ -115,16 +115,16 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         });
 
-        findViewById(R.id.open_fab).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                        "mailto","", null));
-                intent.putExtra(Intent.EXTRA_SUBJECT, getText(R.string.subject));
-                intent.putExtra(Intent.EXTRA_TEXT, getText(R.string.body));
-                startActivity(intent);
-            }
-        });
+//        findViewById(R.id.open_fab).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+//                        "mailto","", null));
+//                intent.putExtra(Intent.EXTRA_SUBJECT, getText(R.string.subject));
+//                intent.putExtra(Intent.EXTRA_TEXT, getText(R.string.body));
+//                startActivity(intent);
+//            }
+//        });
 
 
 

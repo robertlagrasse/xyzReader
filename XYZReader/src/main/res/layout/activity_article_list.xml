@@ -29,6 +29,7 @@
             />
     </android.support.v4.widget.SwipeRefreshLayout>
 
+    <!--
     <ImageButton
         style="@style/fab_style"
         android:id="@+id/open_fab"
@@ -36,6 +37,6 @@
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
         />
-
+    -->
 
 </android.support.design.widget.CoordinatorLayout>

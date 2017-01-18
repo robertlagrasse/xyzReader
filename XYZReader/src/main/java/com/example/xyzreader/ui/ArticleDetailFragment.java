@@ -2,6 +2,7 @@ package com.example.xyzreader.ui;
 
 import android.app.Fragment;
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
@@ -12,10 +13,13 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
+import android.text.InputType;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
@@ -24,6 +28,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
@@ -136,10 +141,29 @@ public class ArticleDetailFragment extends Fragment implements
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
-        mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+//        mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Article article = new Article();
+//                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+//                        "mailto","", null));
+//                intent.putExtra(Intent.EXTRA_SUBJECT, article.getTitle());
+//                intent.putExtra(Intent.EXTRA_TEXT, article.getBody());
+//
+//                startActivity(intent);
+//            }
+//        });
 
+        FloatingActionButton fab = (FloatingActionButton) mRootView.findViewById(R.id.fab);
+
+        // Attach fab to RecyclerView
+        // fab.attachToRecyclerView(recyclerView);
+
+        // Listen for fab clicks
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Article article = new Article();
                 Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
                         "mailto","", null));
@@ -149,6 +173,7 @@ public class ArticleDetailFragment extends Fragment implements
                 startActivity(intent);
             }
         });
+
 
         // bindViews();
         updateStatusBar();

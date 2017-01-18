@@ -57,6 +57,7 @@
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
+    <!--
     <ImageButton
         style="@style/fab_style"
         android:id="@+id/share_fab"
@@ -64,4 +65,12 @@
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
          />
+     -->
+
+    <android.support.design.widget.FloatingActionButton
+        style="@style/fab_style"
+        android:id="@+id/fab"
+        android:background="@drawable/add_fab_background"
+        android:contentDescription="@string/action_share"
+        android:src="@drawable/ic_share" />
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
