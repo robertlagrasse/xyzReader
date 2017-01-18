@@ -219,10 +219,14 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <style name="MaterialXYZReader" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+    <style name="MaterialXYZReader" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorPrimary">@color/chill_primary</item>
         <item name="android:colorPrimaryDark">@color/chill_dark</item>
         <item name="android:colorAccent">@color/chill_accent</item>
+        <item name="colorPrimary">@color/chill_primary</item>
+        <item name="colorPrimaryDark">@color/chill_dark</item>
+        <item name="colorAccent">@color/chill_accent</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>

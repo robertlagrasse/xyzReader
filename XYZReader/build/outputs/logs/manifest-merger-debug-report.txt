@@ -45,7 +45,7 @@ MERGED from [com.android.support:appcompat-v7:22.2.0] /home/robert/AndroidProjec
 	android:icon
 		ADDED from /home/robert/AndroidProjects/xyzReader/XYZReader/src/main/AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from /home/robert/AndroidProjects/xyzReader/XYZReader/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /home/robert/AndroidProjects/xyzReader/XYZReader/src/main/AndroidManifest.xml:15:9-49
 activity#com.example.xyzreader.ui.ArticleListActivity
 ADDED from /home/robert/AndroidProjects/xyzReader/XYZReader/src/main/AndroidManifest.xml:17:9-24:20
 	android:label

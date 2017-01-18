@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.graphics.Palette;
@@ -28,6 +29,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+
+import java.util.ArrayList;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -136,14 +139,18 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
-                        .setType("text/plain")
-                        .setText("Some sample text")
-                        .getIntent(), getString(R.string.action_share)));
+
+                Article article = new Article();
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto","", null));
+                intent.putExtra(Intent.EXTRA_SUBJECT, article.getTitle());
+                intent.putExtra(Intent.EXTRA_TEXT, article.getBody());
+
+                startActivity(intent);
             }
         });
 
-        bindViews();
+        // bindViews();
         updateStatusBar();
         return mRootView;
     }
@@ -176,6 +183,40 @@ public class ArticleDetailFragment extends Fragment implements
             return val;
         }
     }
+
+    private class Article {
+        private String title;
+        private String byline;
+        private String body;
+
+        public Article() {
+            if (mCursor != null) {
+                title = mCursor.getString(ArticleLoader.Query.TITLE);
+                byline = String.valueOf(Html.fromHtml(
+                        DateUtils.getRelativeTimeSpanString(
+                                mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
+                                System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
+                                DateUtils.FORMAT_ABBREV_ALL).toString()
+                                + " by <font color='#ffffff'>"
+                                + mCursor.getString(ArticleLoader.Query.AUTHOR)
+                                + "</font>"));
+                body = String.valueOf(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
+            }
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public String getByline() {
+            return byline;
+        }
+
+        public String getBody() {
+            return body;
+        }
+    }
+
 
     private void bindViews() {
         if (mRootView == null) {

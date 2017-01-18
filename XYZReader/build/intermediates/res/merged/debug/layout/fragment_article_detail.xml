@@ -28,6 +28,7 @@
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
                     android:transitionName="transition_image"/>
+
             </FrameLayout>
 
 

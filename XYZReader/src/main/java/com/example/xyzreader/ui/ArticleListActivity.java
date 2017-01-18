@@ -18,6 +18,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.transition.Explode;
 import android.util.Pair;
 import android.util.TypedValue;
 import android.view.Menu;
@@ -84,18 +85,17 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(mToolbar);
-//
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
-//        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
-//        getSupportActionBar().setDisplayUseLogoEnabled(true);
-//        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
+        // These serve no function. I just wanted to build a custom toolbar.
         ImageView bolt = (ImageView) findViewById(R.id.iv_bolt);
         bolt.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Shocking!",
+                Toast.makeText(getApplicationContext(), "Shocking Implementation!",
                         Toast.LENGTH_SHORT).show();
             }
 
@@ -106,7 +106,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "High Quality!",
+                Toast.makeText(getApplicationContext(), "High Quality Custom Toolbar!",
                         Toast.LENGTH_SHORT).show();
             }
 
@@ -126,9 +126,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
     }
 
-    public void sharedElementTransition(View view){
-
-    }
 
     private void refresh() {
         startService(new Intent(this, UpdaterService.class));
@@ -214,14 +211,14 @@ public class ArticleListActivity extends AppCompatActivity implements
                     pair[0] = new Pair<View, String>(mSharedImage, "transition_image");
                     pair[1] = new Pair<View, String>(mSharedText, "transition_title");
 
+                    Intent i = new Intent(ArticleListActivity.this, ArticleDetailActivity.class);
+                    i.setAction(Intent.ACTION_VIEW);
+                    i.setData(ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
                     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation((Activity) mContext, pair);
-                        Intent i = new Intent(ArticleListActivity.this, ArticleDetailActivity.class);
-                        i.setAction(Intent.ACTION_VIEW);
-                        i.setData(ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
-                        startActivity(i, options.toBundle());
+//                        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation((Activity) mContext, pair);
+                        getWindow().setExitTransition(new Explode());
                     }
-
+                    startActivity(i);
                 }
             });
             return vh;

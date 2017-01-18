@@ -111,8 +111,9 @@ public class ArticleDetailActivity extends AppCompatActivity
             });
         }
 
-        mToolbar = (Toolbar) findViewById(R.id.tool_box);
+        mToolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(mToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ImageView bolt = (ImageView) findViewById(R.id.iv_bolt);
         bolt.setOnClickListener(new View.OnClickListener() {
@@ -142,8 +143,6 @@ public class ArticleDetailActivity extends AppCompatActivity
                 mStartId = ItemsContract.Items.getItemId(getIntent().getData());
                 mSelectedItemId = mStartId;
 
-                Toast.makeText(getApplicationContext(), "Only the best for you!"+ getIntent().getData(),
-                        Toast.LENGTH_SHORT).show();
             }
         }
     }

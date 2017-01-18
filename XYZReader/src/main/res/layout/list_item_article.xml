@@ -17,6 +17,7 @@
             android:id="@+id/thumbnail"
             style="@style/photo_placeholder_style"
             android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
             android:transitionName="transition_image"/>
 
         <TextView

@@ -1230,6 +1230,12 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <style name="MaterialXYZReader" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/chill_primary</item>
+        <item name="colorPrimaryDark">@color/chill_dark</item>
+        <item name="colorAccent">@color/chill_accent</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1481,6 +1487,21 @@
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
     </style>
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/chill_primary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/chill_dark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/chill_accent</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -1633,7 +1654,6 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">16dp</item>
-        <item name="android:textColor">@color/chill_dark</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">4</item>
     </style>
@@ -1644,7 +1664,6 @@
         <item name="android:paddingTop">16dp</item>
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="android:textColor">@color/chill_dark</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">4</item>
     </style>
@@ -1656,8 +1675,7 @@
         <item name="android:paddingRight">@dimen/detail_inner_horiz_margin</item>
         <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier</item>
         <item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>
-        <item name="android:textColor">@color/chill_white</item>
-        <item name="android:textColorLink">@color/chill_accent2</item>
+
         <item name="android:textSize">@dimen/detail_body_text_size</item>
         <item name="android:background">@color/chill_primary</item>
     </style>
@@ -1682,7 +1700,6 @@
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:lineSpacingMultiplier">0.9</item>
         <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
-        <item name="android:textColor">@color/chill_white</item>
         <item name="android:textSize">@dimen/detail_title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -1691,7 +1708,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">bottom</item>
         <item name="android:layout_marginBottom">@dimen/detail_metabar_vert_padding</item>
-        <item name="android:background">@color/chill_dark</item>
         <item name="android:orientation">vertical</item>
         <item name="android:paddingBottom">@dimen/detail_metabar_vert_padding</item>
         <item name="android:paddingLeft">@dimen/detail_inner_horiz_margin</item>
@@ -1703,15 +1719,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">@dimen/detail_card_top_margin</item>
-        <item name="android:background">@color/chill_primary</item>
         <item name="android:maxWidth">@dimen/detail_card_max_width</item>
         <item name="android:orientation">vertical</item>
     </style>
     <style name="photo_placeholder_style">
-        <item name="android:layout_width">100dp</item>
-        <item name="android:layout_height">100dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:background">@color/chill_dark</item>
     </style>
     <style name="recyclerview_style">
         <item name="android:layout_width">match_parent</item>
@@ -1733,6 +1744,5 @@
     <style name="toolbar_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/toolbar_height</item>
-        <item name="android:background">@color/chill_dark</item>
     </style>
 </resources>

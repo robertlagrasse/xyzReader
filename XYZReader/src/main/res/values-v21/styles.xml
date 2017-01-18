@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="MaterialXYZReader" parent="android:Theme.DeviceDefault.Light.NoActionBar" >
+    <style name="MaterialXYZReader" parent="Theme.AppCompat.Light.NoActionBar" >
         <item name="android:colorPrimary">@color/chill_primary</item>
         <item name="android:colorPrimaryDark">@color/chill_dark</item>
         <item name="android:colorAccent">@color/chill_accent</item>
+        <item name="colorPrimary">@color/chill_primary</item>
+        <item name="colorPrimaryDark">@color/chill_dark</item>
+        <item name="colorAccent">@color/chill_accent</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
 
     <style name="fab_style">
