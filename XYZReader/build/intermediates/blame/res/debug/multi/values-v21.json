@@ -996,15 +996,7 @@
                     "endOffset": 16907
                 },
                 "from": {
-                    "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 667
-                    }
+                    "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
                 }
             },
             {
@@ -1079,20 +1071,28 @@
                     "startOffset": 19343,
                     "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 19867
+                    "endOffset": 19871
                 },
                 "from": {
-                    "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
+                    "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 673,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 1201
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 19872,
+                    "startOffset": 19876,
                     "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 20436
+                    "endOffset": 20440
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1102,10 +1102,10 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 20441,
+                    "startOffset": 20445,
                     "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 20776
+                    "endOffset": 20780
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1115,10 +1115,10 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 20781,
+                    "startOffset": 20785,
                     "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 21156
+                    "endOffset": 21160
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"
@@ -1128,10 +1128,10 @@
                 "to": {
                     "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 21161,
-                    "endLine": 313,
+                    "startOffset": 21165,
+                    "endLine": 312,
                     "endColumn": 12,
-                    "endOffset": 21451
+                    "endOffset": 21390
                 },
                 "from": {
                     "file": "/home/robert/AndroidProjects/xyzReader/XYZReader/src/main/res/values-v21/styles.xml"

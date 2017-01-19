@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 18 15:27:07 PST 2017
+#Wed Jan 18 18:12:31 PST 2017
 175.set=ANDROID_RESOURCE
 122.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
 60.set=ANDROID_RESOURCE
@@ -70,7 +70,7 @@
 137.set=ANDROID_RESOURCE
 136.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 1.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-35.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
+35.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
 129.set=ANDROID_RESOURCE
 45.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 82.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
@@ -149,7 +149,7 @@
 135.set=ANDROID_RESOURCE
 127.set=ANDROID_RESOURCE
 135.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-34.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
+34.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/padded_divider.xml
 0.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 119.set=ANDROID_RESOURCE
 44.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -228,7 +228,7 @@
 125.set=ANDROID_RESOURCE
 117.set=ANDROID_RESOURCE
 134.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-33.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/padded_divider.xml
+33.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
 109.set=ANDROID_RESOURCE
 43.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 80.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_up_container.xml
@@ -302,7 +302,7 @@
 115.set=ANDROID_RESOURCE
 107.set=ANDROID_RESOURCE
 133.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-32.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+32.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
 42.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 39.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
 5.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -377,7 +377,7 @@ count=178
 113.set=ANDROID_RESOURCE
 105.set=ANDROID_RESOURCE
 132.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-31.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+31.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
 41.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 167.set=ANDROID_RESOURCE
 139.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -450,11 +450,11 @@ count=178
 103.set=ANDROID_RESOURCE
 165.set=ANDROID_RESOURCE
 131.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-30.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
+30.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item.xml
 40.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 157.set=ANDROID_RESOURCE
 138.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-37.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim-v21/fab_state_list_anim.xml
+37.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_part_chronometer.xml
 3.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 149.set=ANDROID_RESOURCE
 47.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -518,7 +518,7 @@ count=178
 22.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
 160.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background_light.xml
 170.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-29.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item.xml
+29.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/animator-v21/fab_state_list_anim.xml
 101.set=ANDROID_RESOURCE
 167.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
 177.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -528,7 +528,7 @@ count=178
 130.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 147.set=ANDROID_RESOURCE
 137.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
-36.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_part_chronometer.xml
+36.file=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
 2.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_
 139.set=ANDROID_RESOURCE
 46.base=/home/robert/AndroidProjects/xyzReader/XYZReader/build/intermediates/res/resources-debug.ap_

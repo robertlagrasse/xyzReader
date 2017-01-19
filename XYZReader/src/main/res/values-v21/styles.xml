@@ -19,7 +19,7 @@
         <item name="android:layout_marginBottom">@dimen/fab_margin</item>
         <item name="android:layout_marginRight">@dimen/fab_margin</item>
         <item name="android:elevation">@dimen/fab_elevation</item>
-        <item name="android:stateListAnimator">@anim/fab_state_list_anim</item>
+        <item name="android:stateListAnimator">@animator/fab_state_list_anim</item>
     </style>
 
     <style name="mwll_style">
@@ -36,7 +36,6 @@
     <style name="toolbar_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/toolbar_height</item>
-        <item name="android:background">@color/chill_dark</item>
         <item name="android:elevation">4dp</item>
     </style>
 

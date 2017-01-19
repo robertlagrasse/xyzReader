@@ -20,8 +20,9 @@
         android:state_pressed="true">
         <set>
             <objectAnimator
-                android:duration="@android:integer/config_shortAnimTime"
+                android:duration="@android:integer/config_longAnimTime"
                 android:propertyName="translationZ"
+                android:valueFrom="@dimen/fab_elevation"
                 android:valueTo="@dimen/fab_press_translation_z"
                 android:valueType="floatType" />
         </set>
@@ -29,9 +30,10 @@
     <item>
         <set>
             <objectAnimator
-                android:duration="@android:integer/config_shortAnimTime"
+                android:duration="@android:integer/config_longAnimTime"
                 android:propertyName="translationZ"
-                android:valueTo="0"
+                android:valueFrom="@dimen/fab_press_translation_z"
+                android:valueTo="@dimen/fab_elevation"
                 android:valueType="floatType" />
         </set>
     </item>
